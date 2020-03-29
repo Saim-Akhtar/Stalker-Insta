@@ -9,7 +9,7 @@ An Instagram crawler for fetching a profile.
  Install all dependencies
 
 ```
-pip install
+pip install -r requirements.txt
 
 ```
 
@@ -17,7 +17,7 @@ pip install
 
 Fetch the list of followers and following and store the result in excel file
 
-## Get your own follewers and folowwing list
+## Get your own followers and following list
 
 ```
 python3 main.py --username <your_insta_username> --pwd <your_insta_password>
